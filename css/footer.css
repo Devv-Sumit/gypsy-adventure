@@ -1,0 +1,59 @@
+footer .footer-container {
+  gap: 20px;
+}
+footer .brand-logo {
+    max-height: 90px;
+    max-width: 90px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+footer .brand-logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+footer .pages a {
+  color: #5a5a5a;
+  display: inline-block;
+}
+footer .logo-container {
+  max-width: 380px;
+}
+
+footer .pages .d-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+footer .newsletter-wrapper {
+    width: fit-content;
+  border-radius: 5px;
+  overflow: hidden;
+}
+footer .newsletter input {
+  border: none;
+  color: var(----bs-sucess);
+  padding: 16px 20px;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+footer .newsletter input::placeholder {
+  color: var(----bs-sucess);
+}
+footer .newsletter button {
+  appearance: none;
+  border: none;
+  color: #fff;
+  background-color: var(--bs-primary);
+  padding: 16px 20px;
+}
+.social-icons a {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.social-icons img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
