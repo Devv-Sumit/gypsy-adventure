@@ -289,13 +289,13 @@
   background-position: center;
   background-size: cover;
 }
-.upcoming-trips {
+.right-fixed {
   position: fixed;
   z-index: 100000;
   top: 300px;
   right: 0;
 }
-.upcoming-trips a {
+.right-fixed a {
   display: block;
   color: #fff;
   background-color: var(--bs-primary);
@@ -401,15 +401,15 @@
 .prev {
   top: unset;
   bottom: 0;
-  color: var(--bs-sucess);
+  color: var(--bs-primary);
   left: 50%;
-  transform: translateX(-100%);
+  transform: translateX(-150%);
 }
 
 .next {
   top: unset;
   bottom: 0;
-  color: var(--bs-sucess);
+  color: var(--bs-primary);
   right: 50%;
-  transform: translateX(100%);
+  transform: translateX(150%);
 }
