@@ -380,12 +380,7 @@
   object-fit: cover;
 }
 
-.exp-bg-img {
-  margin-top: 0;
-  background-position: top;
-  background-image: url('../images/bg-img-2.png');
-  min-height: 700px;
-}
+
 
 
 .activity-block .swiper-slide img{
@@ -412,4 +407,22 @@
   color: var(--bs-primary);
   right: 50%;
   transform: translateX(150%);
+}
+
+.exp-banner .banner-content{
+  min-height: 650px;
+}
+.hero-banner-section .price-tag {
+  max-width: 350px;
+  position: absolute;
+  right: 20%;
+  transform: translateY(-50%);
+  border-radius: 10px;
+}
+
+.exp-bg-img {
+  margin-top: 0;
+  background-position: top;
+  background-image: url('../images/bg-img-2.png');
+  min-height: 700px;
 }
