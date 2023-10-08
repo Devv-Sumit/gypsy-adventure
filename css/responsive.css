@@ -79,7 +79,7 @@
     .travel-plan .nav-link{
         border-radius: 5px;
         font-size: 20px;
-        width: calc(50% - 20px);
+        width: calc(50% - 10px);
         border: 1px solid var(--bs-secondary);
     }
     .right-fixed {
@@ -90,5 +90,9 @@
     }
     .exp-bg-img {
         min-height: 240px;
+    }
+    .custom-container {
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
