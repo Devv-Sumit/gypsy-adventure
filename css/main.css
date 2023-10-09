@@ -22,7 +22,7 @@
   height: 100%;
 }
 
-.banner-content {
+.hero-banner-section .banner-content {
   width: fit-content;
   min-height: 100vh;
 }
@@ -442,4 +442,63 @@
 }
 .accommodation-section .bordered-card p{
   font-size: 14px;
+}
+.property-policy {
+  max-width: 500px;
+}
+.location-accordion {
+  max-width: 500px;
+}
+.location-accordion .accordion-button::after {
+  display: none;
+}
+.location-accordion .accordion-button .img-wrapper {
+  height: 65px;
+  width: 65px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius:0% 100% 0% 100% / 0% 0% 100% 100%  ;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.location-accordion img {
+  height: 40px;
+  width: 40px;
+}
+.location-accordion .accordion-button.bus{
+  background-color: #dbe7e6;
+  color: #000;
+}
+.location-accordion .bus .img-wrapper {
+  background-color: #fff;
+}
+
+.location-accordion .accordion-button.train{
+  background-color: #1a1010;
+  color: #fff;
+}
+.location-accordion .train .img-wrapper {
+  background-color: #fcd582;
+}
+
+.location-accordion .accordion-button.plane{
+  background-color: #fcd582;
+  color: #fff;
+}
+.location-accordion .plane .img-wrapper {
+  background-color: #dbe7e6;
+}
+.stay-banner img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+.stay-banner .row {
+  min-height: 650px;
 }

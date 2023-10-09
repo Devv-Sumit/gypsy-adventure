@@ -111,13 +111,17 @@ var reviewSwiper = new Swiper(".reviewSwiper", {
 });
 
 const stayReview = new Swiper(".stay-review-swiper", {
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 30,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-
+  breakpoints: {
+    992: {
+      slidesPerView: 2,
+    },
+  }
 })
 
 window.addEventListener('scroll', () => {
