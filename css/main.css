@@ -426,3 +426,20 @@
   background-image: url('../images/bg-img-2.png');
   min-height: 700px;
 }
+
+.stay-feature-card {
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.stay-feature-card img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+.accommodation-section .swiper-slide-active .bordered-card {
+  scale: unset;
+}
+.accommodation-section .bordered-card p{
+  font-size: 14px;
+}

@@ -110,6 +110,16 @@ var reviewSwiper = new Swiper(".reviewSwiper", {
   },
 });
 
+const stayReview = new Swiper(".stay-review-swiper", {
+  slidesPerView: 2,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+})
+
 window.addEventListener('scroll', () => {
   if (scrollY >= 20) {
     document.querySelector('header').classList.add('bg-white','text-dark')
